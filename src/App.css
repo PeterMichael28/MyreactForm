@@ -1,0 +1,95 @@
+a{
+  text-decoration: none;
+}
+
+.nav-bar{
+  padding: 15px 15px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+}
+.nav-bar h2{
+  margin: 0;
+  font-size: 2rem;
+}
+
+.form{
+  max-width: 300px;
+  margin: 2rem auto;
+  background-color: ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.form input{
+  width: 100%;
+  margin: 5px 0;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, .6);
+  padding: 3px 8px;
+}
+.form input:focus{
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, .8);
+  outline: none;
+}
+::placeholder{
+  font-size: .76rem;
+}
+
+.form select{
+  width: 100%;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, .6);
+  padding: 3px 8px;
+}
+.form select:focus{
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, .8);
+  outline: none;
+}
+.cont-btn {
+  background-color: rgba(0, 0, 0, 1);
+  padding: 10px;
+  color: white;
+  margin: 10px;
+  border: none;
+  /* align-self: flex-start; */
+  font-size: 1rem;
+}
+.btn-grp{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+
+}
+.back-btn{
+  background-color: grey;
+  padding: 10px;
+  color: black;
+  margin: 10px;
+  border: none;
+  font-size: 1rem;
+}
+.ul-container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+
+}
+.ul{
+  list-style: none;
+}
+.ul h4{
+  margin: 0;
+}
+
+.errors{
+  margin: 0;
+  font-size: .8rem;
+  color: crimson;
+}
